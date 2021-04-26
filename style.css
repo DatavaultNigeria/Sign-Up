@@ -119,6 +119,7 @@ p.text-center {
 }
 .footer {
   margin-left: 2.5rem;
+  display: flex;
 }
 .google{
   margin-right: 4rem;
@@ -148,18 +149,18 @@ p.text-center {
   .btn-primary {
     width: 66vw;
   }
-  .me-5 {
-    margin: none;
-  }
   .footer {
     margin-left: 2.9rem;
   }
+  .google{
+    margin-right: 1rem;
+  }
 }
-@media (min-width: 568px) and (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 568px) {
   .btn-primary {
     width: 66vw;
   }
-  .me-5 {
-    margin: 0;
+  .google{
+    margin-right: 1rem;
   }
 }
